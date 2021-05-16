@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.11.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tutorial.Dto\Tutorial.Dto.csproj" />
+    <ProjectReference Include="..\Tutorial.Helper\Tutorial.Helper.csproj" />
+    <ProjectReference Include="..\Tutorial.Services.Infrastructure\Tutorial.Services.Infrastructure.csproj" />
+    <ProjectReference Include="..\Tutorial.Utils\Tutorial.Utils.csproj" />
+  </ItemGroup>
+
+</Project>

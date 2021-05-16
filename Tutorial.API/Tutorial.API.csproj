@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tutorial.Dto\Tutorial.Dto.csproj" />
+    <ProjectReference Include="..\Tutorial.Helper\Tutorial.Helper.csproj" />
+    <ProjectReference Include="..\Tutorial.Services.Infrastructure\Tutorial.Services.Infrastructure.csproj" />
+    <ProjectReference Include="..\Tutorial.Services\Tutorial.Services.csproj" />
+    <ProjectReference Include="..\Tutorial.Utils\Tutorial.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
